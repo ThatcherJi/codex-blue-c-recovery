@@ -1,0 +1,12 @@
+*.exe
+*.ico
+*.log
+*.previous
+node-path.txt
+codex-*-state.json
+codex-last-diagnostic.txt
+codex-response-protection.disabled
+codex-tray-runs/
+diagnostics/
+dist/
+node_modules/

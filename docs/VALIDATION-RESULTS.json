@@ -1,0 +1,27 @@
+{
+  "dateLocal": "2026-09-25",
+  "timezone": "Asia/Shanghai",
+  "packageVersion": "0.1.0",
+  "nodeVersion": "24.14.1",
+  "offlineTestFiles": 4,
+  "offlineTestFilesPassed": 4,
+  "guardAssertions": 9,
+  "compatibilityAssertions": 10,
+  "readRetryTests": "passed: stalled-read allowlists, bounded failure, inactive/healthy reads and write exclusion",
+  "trayCompilation": "passed using Windows .NET Framework csc",
+  "traySelfTest": "passed in check-only mode; no Codex process stopped",
+  "powershellParsing": "passed",
+  "metadataCaptureOnly": "passed; no restart",
+  "isolatedDiagnosticLeaseProbe": "passed; diagnostic listener closed",
+  "liveCompatibilityProbe": {
+    "passed": true,
+    "windowsVerified": 2,
+    "newHookInstalled": false,
+    "diagnosticListenerClosed": true
+  },
+  "notExercised": [
+    "Installation on a second machine",
+    "Windows login startup cycle for the public package",
+    "Public package's destructive manual desktop-restart fallback"
+  ]
+}

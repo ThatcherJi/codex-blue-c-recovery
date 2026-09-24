@@ -1,0 +1,9 @@
+{
+  "name": "codex-blue-c-recovery",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Windows Codex desktop reply-delivery workaround and Blue C recovery tray",
+  "type": "module",
+  "engines": {"node": ">=24"},
+  "scripts": {"test": "node --test tests/test-*.mjs"}
+}
